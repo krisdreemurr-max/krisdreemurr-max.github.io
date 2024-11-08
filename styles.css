@@ -1,0 +1,65 @@
+h1 {
+    color:aqua;
+    font-family: Arial;
+  }
+  
+  h2 {
+    color:crimson;
+    font-family:Arial;
+  }
+  
+  h3 {
+    color:seagreen;
+    font-family: Arial;
+  }
+  
+  p {
+    
+  }
+  
+  ol {
+    list-style-type: lower-greek;
+    border: 2px dashed blue;
+    color:red;
+  }
+  
+  ul {
+    color:blue;
+  }
+  
+  ul li li {  /* affects nested items only */
+    background-color: #a9f;
+    
+  }
+  
+  a {
+    text-decoration: none; 
+    font-family: Arial;
+    font-weight: 700;
+  }
+  
+  table {  /* table */
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px; 
+  }
+  
+  th, td {  /* cells */
+     border: 3px solid yellow;
+     padding: 5px 10px;
+     background-color: palegreen;
+  }
+  
+  .header {
+    
+  }
+  
+  .stirn {
+     border-radius: 50%;
+     border: 5px solid red;
+  }
+  
+  mark {
+     background-color:lightblue;
+  }
