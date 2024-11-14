@@ -1,65 +1,87 @@
 h1 {
-    color:aqua;
-    font-family: Arial;
-  }
+  color:aqua;
+  font-family: Arial;
+}
+
+h2 {
+  color:crimson;
+  font-family:Arial;
+}
+
+h3 {
+  color:seagreen;
+  font-family: Arial;
+}
+
+p {
+  color:white;
+}
+
+ol {
+  list-style-type: lower-greek;
+  border: 2px dashed blue;
+  color:red;
+}
+
+ul {
+  color:blue;
+  background-color: #a9f;
+}
+
+ul li li {  /* affects nested items only */
+  background-color: #a9f;
   
-  h2 {
-    color:crimson;
-    font-family:Arial;
-  }
+}
+
+a {
+  text-decoration: none; 
+  font-family: Arial;
+  font-weight: 700;
+}
+
+table {  /* table */
+  border-collapse: separate;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px; 
+}
+
+th, td {  /* cells */
+   border: 3px solid yellow;
+   padding: 5px 10px;
+   background-color: palegreen;
+}
+
+.header {
   
-  h3 {
-    color:seagreen;
-    font-family: Arial;
+}
+
+.stirn {
+   border-radius: 50%;
+   border: 5px solid red;
+}
+
+mark {
+   background-color:lightblue;
+}
+
+body {
+  background-color:navy;
+}
+
+@keyframes sway {
+  0% {
+    transform: rotate(0deg);
   }
-  
-  p {
-    
+  50% {
+    transform: rotate(5deg);
   }
-  
-  ol {
-    list-style-type: lower-greek;
-    border: 2px dashed blue;
-    color:red;
+  100% {
+    transform: rotate(0deg);
   }
-  
-  ul {
-    color:blue;
-  }
-  
-  ul li li {  /* affects nested items only */
-    background-color: #a9f;
-    
-  }
-  
-  a {
-    text-decoration: none; 
-    font-family: Arial;
-    font-weight: 700;
-  }
-  
-  table {  /* table */
-    border-collapse: separate;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 24px; 
-  }
-  
-  th, td {  /* cells */
-     border: 3px solid yellow;
-     padding: 5px 10px;
-     background-color: palegreen;
-  }
-  
-  .header {
-    
-  }
-  
-  .stirn {
-     border-radius: 50%;
-     border: 5px solid red;
-  }
-  
-  mark {
-     background-color:lightblue;
-  }
+}
+
+body {
+  display: inline-block;
+  animation: sway 3s ease-in-out infinite;
+}
