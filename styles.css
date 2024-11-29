@@ -5,7 +5,7 @@ h1 {
 
 h2 {
   color:crimson;
-  font-family:Arial;
+  font-family: Arial;
 }
 
 h3 {
@@ -84,4 +84,8 @@ body {
 body {
   display: inline-block;
   animation: sway 3s ease-in-out infinite;
+}
+
+link {
+  background-color:red;
 }
